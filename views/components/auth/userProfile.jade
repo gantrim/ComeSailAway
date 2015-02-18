@@ -1,0 +1,23 @@
+block body
+  .row
+    .small-12.small-centered.large-6.large-centered.columns
+      h1(ng-cloak="") {{user.username | uppercase}}
+      form(role="form", ng-submit="updateUserProfile()")
+        .row
+          .small-6
+            label Email Address
+          .small-6
+            input(ng-model="email")
+        .row
+          .small-6
+            label Password
+          .small-6
+            input(ng-model="password")
+        .row
+          .small-6
+            label Confirm Password
+          .small-6
+            input(ng-model="confirmPassword")
+        .row
+          .small-6
+            button.button(type="submit") Update Profile

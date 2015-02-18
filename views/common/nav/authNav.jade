@@ -1,0 +1,23 @@
+//Site wide navigation partial
+.contain-to-grid.sticky.auth-nav
+  .row(ng-controller="AuthCtrl")
+    .small-12.columns
+      nav.top-bar(data-topbar='',role='navigation').auth-nav
+        section.top-bar-section
+          // Right Nav Section
+          ul.right
+            //unauthenticated user links
+            li(ng-hide="authenticated()")
+              a(href='/login',ng-cloak="") Log In
+            li(ng-hide="authenticated()")
+              a(href='/register') Register
+
+            //authenticated user links
+            li(ng-show="authenticated()")
+              a(href="#",ng-click="") My Saved Searches
+            li(ng-show="authenticated()")
+              a(ng-href="/listing/add") Add Listing
+            li(ng-show="authenticated()")
+              a(ng-href="/userprofile/{{authenticatedUserName()}}") My Profile
+            li
+              a(href="#", ng-show="authenticated()", ng-click="logOut()") Log Out

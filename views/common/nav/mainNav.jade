@@ -1,0 +1,23 @@
+//Site wide navigation partial
+.contain-to-grid.sticky
+  .row(ng-controller="AuthCtrl")
+    .small-12.columns
+      nav.top-bar(data-topbar,role='navigation').main-nav
+        ul.title-area
+          // Title Area
+          li.name
+            h1(ng-cloak="")
+              a.title-link(href='/',ng-cloak="") Come Sail Away
+          li.toggle-topbar.menu-icon
+            a(href='/')
+              span menu
+        section.top-bar-section
+          // Right Nav Section
+          ul.right(ng-cloak="")
+            li.divider
+            li
+              a(href='#',ng-cloak="") Menu Item 1
+            li.divider
+            li
+              a(href="#") Menu Item 2
+            li.divider

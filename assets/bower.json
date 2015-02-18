@@ -1,0 +1,18 @@
+{
+  "name": "SimplCar",
+  "version": "0.0.0",
+  "author": "greg",
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-mocks": "~1.3.0",
+    "angular-ui-router": "~0.2.13",
+    "foundation-stylus": "https://github.com/2fd/foundation-stylus.git",
+    "lodash": "~3.0.0",
+    "angular-moment": "~0.9.0",
+    "handlebars": "~2.0.0",
+    "angular-cookie": "~4.0.6",
+    "ngstorage": "~0.3.0",
+    "angular-auto-validate": "~1.15.22"
+  },
+  "overrides": {}
+}

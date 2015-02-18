@@ -1,0 +1,11 @@
+.row
+  .small-4.small-centered.columns
+    h2 Register
+    if errors
+      each error in errors
+        label=error
+    form(role="form")
+      input(type="text", ng-model="username", name="username", placeholder="Username")
+      input(type="text", ng-model="email", name="email", placeholder="Email")
+      input(type="password", name="password", ng-model="password", placeholder="Password")
+      button(type="submit", ng-click='register()') Sign up
