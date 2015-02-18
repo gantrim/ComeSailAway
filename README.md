@@ -12,7 +12,7 @@ While its use might be highly specific, I spent days figuring out how to get the
 
 ## Usage
 
-run "sails lift" inside project root to start application. That's it.
+Run "sails lift" inside project root to start application. That's it.
 
 ## Configuration
 
@@ -65,7 +65,7 @@ After than generating a new modulue is as easy as running
      'post /foo/doCoolStuff': 'FooController.doCoolStuff'
      ...
    ```
-  Exposes The controller method via [your_app_url]/foo/doCoolStuff
+  Exposes the controller method via [your_app_url]/foo/doCoolStuff
 
 ####Angular JS
 
@@ -75,19 +75,19 @@ After than generating a new modulue is as easy as running
 
 ## Contributing
 
-Pull requests are more than welcome/ If you find something that's broken, or want to add a feature go ahead and fork it.
+Pull requests are more than welcome. If you find something that's broken, or want to add a feature go ahead and fork it.
 
 ## Credits
 
 Most of this work was done for me. I basically compiled code from many different sources into a project template.
 Big thanks to the following users/repos for doing the real work for me:
 
-[SailsJS](https://github.com/balderdashy/sails)
-[sails-generate-auth](https://github.com/kasperisager/sails-generate-auth)
-[generator-frontend-boiler](https://github.com/jakegibson/generator-frontend-boiler)
-[blai/foundation (stylus version of foundation)](https://github.com/blai/foundation)
-[sails-generate-gulp-bower] (https://www.npmjs.com/package/sails-generate-gulp-bower)
-[sails-generate-views-jade](https://github.com/balderdashy/sails-generate-views-jade)
+* [SailsJS](https://github.com/balderdashy/sails)
+* [sails-generate-auth](https://github.com/kasperisager/sails-generate-auth)
+* [generator-frontend-boiler](https://github.com/jakegibson/generator-frontend-boiler)
+* [blai/foundation (stylus version of foundation)](https://github.com/blai/foundation)
+* [sails-generate-gulp-bower] (https://www.npmjs.com/package/sails-generate-gulp-bower)
+* [sails-generate-views-jade](https://github.com/balderdashy/sails-generate-views-jade)
 
 ## License
 
