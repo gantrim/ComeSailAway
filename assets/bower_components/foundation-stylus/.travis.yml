@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '0.10'
+branches:
+  only:
+    - master
+before_install:
+  - npm install -g gulp bower
+before_script:
+  - bower install
+script:
+  - gulp releas
+after_success:
+  - echo -e "Done with magic\n"
+notifications:
+  email:
+    recipients:
+      - i@2fd.me

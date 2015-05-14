@@ -1,0 +1,32 @@
+{
+  "name": "foundation-stylus",
+  "version": "5.4.4",
+  "main": [
+    "css/foundation.css",
+    "js/foundation.js",
+    "js"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">= 2.1.0",
+    "modernizr": ">= 2.7.2",
+    "fastclick": ">=0.6.11",
+    "jquery.cookie": "~1.4.0",
+    "jquery-placeholder": "~2.0.7",
+    "normalize.css": ">=3.0.1"
+  },
+  "devDependencies": {
+    "jquery.autocomplete": "devbridge/jQuery-Autocomplete#1.2.9",
+    "lodash": "~2.4.1"
+  },
+  "homepage": "https://github.com/2fd/foundation-stylus",
+  "_release": "5.4.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.4.4",
+    "commit": "7d7ee9d2889ffc733da0c4117fef265b1ce1d13f"
+  },
+  "_source": "https://github.com/2fd/foundation-stylus.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/2fd/foundation-stylus.git"
+}

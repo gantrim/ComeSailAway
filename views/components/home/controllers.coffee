@@ -1,6 +1,5 @@
 module.exports = (app)->
-  app.controller "HomeCtrl", ["$rootScope", "$scope", "$location", '$localStorage', "Home"
-    ($rootScope, $scope, $location, $localStorage, Home) ->
+  app.controller "HomeCtrl", ["$rootScope", "$scope", "$location", '$localStorage'
+    ($rootScope, $scope, $location, $localStorage) ->
 
   ]
-

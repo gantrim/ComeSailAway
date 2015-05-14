@@ -1,0 +1,20 @@
+{
+  "js": {
+    "src": ["js/**/foundation.*.js", "js/foundation/foundation.js"],
+    "dest": "dist/assets/js"
+  },
+  "css": {
+    "src": ["styl/foundation.styl"],
+    "dest": "dist/assets/css"
+  },
+  "styl": {
+    "src": ["styl/**/*.styl"],
+    "dest": "dist/assets/styl"
+  },
+  "pack": {
+    "vendor": "dist/assets",
+    "src": "dist/assets/**/*",
+    "dest": "dist",
+    "name": "assets-v{version}"
+  }
+}

@@ -14,5 +14,4 @@ module.exports = ['$routeProvider', '$locationProvider', '$httpProvider',
         access: {requiredLogin: false}
 
     $locationProvider.html5Mode(true)
-    $httpProvider.interceptors.push 'TokenInterceptor'
 ]
