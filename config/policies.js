@@ -18,11 +18,5 @@
 
 
 module.exports.policies = {
-  '*': "jwtAuth",
-  UserController: {
-    "*": true
-  },
-  AuthController: {
-    '*': true
-  }
+
 };

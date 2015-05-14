@@ -34,30 +34,7 @@ module.exports.routes = {
 
   '/': {
     view: 'index'
-  },
-  '/login': {
-    view: 'index'
-  },
-  '/register': {
-    view: 'index'
-  },
-
-  //API methods
-
-  //Auth Methods
-  'post /login': 'AuthController.login',
-  'get /logout': 'AuthController.logout',
-
-  'post /auth/local': 'AuthController.callback',
-  'post /auth/local/:action': 'AuthController.callback',
-
-  'get /auth/:provider': 'AuthController.provider',
-  'get /auth/:provider/callback': 'AuthController.callback',
-  'get /auth/:provider/:action': 'AuthController.callback',
-
-  'post /auth/bearer': 'AuthController.callback',
-  'post /auth/bearer/:action': 'AuthController.callback',
-
+  }
   /***************************************************************************
    *                                                                          *
    * Custom routes here...                                                    *
