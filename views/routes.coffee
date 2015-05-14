@@ -9,14 +9,6 @@ module.exports = ['$routeProvider', '$locationProvider', '$httpProvider',
       templateUrl: "components/home/homeView.html"
       controller: 'HomeCtrl'
       access: {requiredLogin: false}
-    .when '/login',
-      templateUrl: "components/auth/login.html"
-      controller: 'AuthCtrl'
-      access: {requiredLogin: false}
-    .when '/register',
-      templateUrl: "components/auth/register.html"
-      controller: 'AuthCtrl'
-      access: {requiredLogin: false}
     .otherwise
         redirectTo: '/'
         access: {requiredLogin: false}
